@@ -1,4 +1,8 @@
+import javax.swing.*;
 
-class Main {
+public class Main extends JFrame {
 
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> new Main());
+    }
 }
