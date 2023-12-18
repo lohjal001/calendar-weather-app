@@ -24,5 +24,7 @@
     <orderEntry type="library" name="lib" level="project" />
     <orderEntry type="library" name="javafx-sdk-21.0" level="project" />
     <orderEntry type="library" name="javafx-swt" level="project" />
+    <orderEntry type="library" name="bitplan.gui.javafx1" level="project" />
+    <orderEntry type="library" name="javafx-sdk-21.01" level="project" />
   </component>
 </module>
