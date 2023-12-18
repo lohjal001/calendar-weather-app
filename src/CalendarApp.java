@@ -14,7 +14,7 @@ public class CalendarApp {
     public void createAndShowGUI() {
         // Layout för huvudramen
         frame.setLayout(new GridLayout(1, 7));
-        frame.setPreferredSize(new Dimension(1000, 600));
+        frame.setPreferredSize(new Dimension(1100, 600));
 
         // Hämtar veckonumret direkt från Calendar.getInstance()
         int weekNumber = Calendar.getInstance().get(Calendar.WEEK_OF_YEAR);

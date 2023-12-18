@@ -6,19 +6,6 @@ public class CustomDate {
     private String weekday;
     private String dayAndMonth;
 
-    private String getOrdinalNumber(int num) {
-        switch (num % 10) {
-            case 1:
-                return "st";
-            case 2:
-                return "nd";
-            case 3:
-                return "rd";
-            default:
-                return "th";
-        }
-    }
-
     private String makeFirstUpperCase(String str) {
         return str.substring(0, 1) + str.substring(1).toLowerCase();
     }
@@ -27,7 +14,7 @@ public class CustomDate {
         this.date = date;
         DayOfWeek currentDay = date.getDayOfWeek();
         weekday = makeFirstUpperCase(currentDay.name());
-        dayAndMonth = String.format("%d%s of %s", date.getDayOfMonth(), getOrdinalNumber(date.getDayOfMonth()), makeFirstUpperCase(date.getMonth().name()));
+        dayAndMonth = String.format("%d%s of %s", date.getDayOfMonth(),(date.getDayOfMonth()), makeFirstUpperCase(date.getMonth().name()));
     }
 
     public boolean isToday() {
