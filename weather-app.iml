@@ -11,7 +11,7 @@
     <orderEntry type="library" name="eclipsesource.minimal.json" level="project" />
     <orderEntry type="library" name="ejlchina.okhttps.gson" level="project" />
     <orderEntry type="library" name="bitplan.gui.javafx" level="project" />
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk.zip!/javafx-sdk-21.0.1/lib" />
@@ -21,10 +21,10 @@
         <jarDirectory url="jar://$USER_HOME$/Downloads/openjfx-21.0.1_windows-x64_bin-sdk.zip!/javafx-sdk-21.0.1/lib" recursive="false" />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="library" exported="" name="lib" level="project" />
     <orderEntry type="library" name="javafx-sdk-21.0" level="project" />
-    <orderEntry type="library" name="javafx-swt" level="project" />
+    <orderEntry type="library" exported="" name="javafx-swt" level="project" />
     <orderEntry type="library" name="bitplan.gui.javafx1" level="project" />
-    <orderEntry type="library" name="javafx-sdk-21.01" level="project" />
+    <orderEntry type="library" exported="" name="javafx-sdk-21.01" level="project" />
   </component>
 </module>
