@@ -1,3 +1,8 @@
+import cn.hutool.json.JSONObject;
+import com.eclipsesource.json.Json;
+import com.eclipsesource.json.JsonArray;
+import com.eclipsesource.json.JsonObject;
+
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
@@ -59,8 +64,7 @@ public class WeatherAPI extends Application {
     private static String parseWeatherData(String jsonData) {
         System.out.println(jsonData);
 
-        // Lägg till kod för att bearbeta väderdata och få JSon -> String
-
+        // Lägg till kod för att göra Json till String
         return jsonData;
     }
 
