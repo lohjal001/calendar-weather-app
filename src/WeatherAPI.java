@@ -1,18 +1,25 @@
-        import cn.hutool.json.JSONObject;
-        import com.eclipsesource.json.Json;
-        import com.eclipsesource.json.JsonArray;
-        import com.eclipsesource.json.JsonObject;
 
-        import java.io.BufferedReader;
-        import java.io.InputStreamReader;
-        import java.net.HttpURLConnection;
-        import java.net.URL;
+import cn.hutool.json.JSONObject;
+import com.eclipsesource.json.Json;
+import com.eclipsesource.json.JsonArray;
+import com.eclipsesource.json.JsonObject;
+
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.scene.control.Label;
+import javafx.scene.layout.StackPane;
+import javafx.stage.Stage;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
 
 
 public class WeatherAPI {
 
     private static final String API_KEY = "39a9fa293da14c18d62e493441646e01";
-    private static final String API_URL = "http://api.openweathermap.org/data/2.5/weather?q=%s&appid=%s";
+    private static final String API_URL = "http://api.openweathermap.org/data/2.5/weather?q=%s&appid=%s&units=metric";
 
     public static void main(String[] args) {
         String city = "Malmö";
